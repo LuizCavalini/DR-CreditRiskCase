@@ -1,9 +1,13 @@
-# Case Técnico – Cientista de Dados Júnior | Datarisk
+# Case Técnico — Cientista de Dados Júnior
 
 ## Apresentação
 
 Este repositório contém o case técnico para o processo seletivo de **Cientista de Dados Júnior** na **Datarisk**, uma consultoria especializada em soluções baseadas em dados e inteligência aplicada ao mercado de crédito.
 O desafio proposto envolve um projeto de **risco de crédito**, tema central de grande parte dos projetos que realizamos com nossos clientes.
+
+## O Problema
+
+O objetivo é prever a **probabilidade de inadimplência** de cobranças (títulos a pagar) de clientes, com base em dados cadastrais, informações mensais (renda, número de funcionários) e histórico de pagamentos. Considera-se inadimplente o pagamento realizado com **atraso igual ou superior a 5 dias** em relação à data de vencimento, ou **não realizado** (data de pagamento nula). O modelo treinado sobre o histórico de pagamentos deve ser usado para estimar essa probabilidade nas cobranças recentes, ainda sem desfecho conhecido.
 
 ## Instruções
 
